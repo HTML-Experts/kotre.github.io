@@ -207,4 +207,15 @@ $(document).ready(function(){
         $('.shipping-cart').removeClass('search-box-active');
         $('.boxbg-posi').removeClass('box-open');
     });
+
+
+    // for sticky-header
+    $(window).scroll(function(){
+        if ($(window).scrollTop() >= 300) {
+            $('#sticky-header').addClass('fixed-header');
+        }
+        else {
+            $('#sticky-header').removeClass('fixed-header');
+        }
+    });
 });

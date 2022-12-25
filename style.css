@@ -1,3 +1,21 @@
+/* --- stickyy-header */
+.fixed-header {
+    position: fixed;
+	z-index: 20000000;
+    top: 0;
+    left: 0;
+    width: 100%; 
+	animation-name: fadeInDown;
+	animation-duration: .43s;
+	/* transition: all .5s ease-in-out; */
+	box-shadow:1px 1px 17px 0px rgba(87, 87, 87, 0.3);
+    background: #fff;
+}
+a{
+    cursor: pointer;
+}
+
+
 .boxbg-posi {
     position: absolute;
     top: 0;
